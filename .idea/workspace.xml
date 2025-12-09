@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad9786ac-c81c-4894-8ea5-9d1b62cfe258" name="Changes" comment="" />
+    <list default="true" id="ad9786ac-c81c-4894-8ea5-9d1b62cfe258" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/schemas/fhir.schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/patient_example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fhir_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/fhir_testing.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,10 +52,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.FHIR_fetch.executor": "Run",
+    "Python.fhir_testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "working__branch",
+    "last_opened_file_path": "/home/nicholas/workspace/Pycharm Projects/FHIR_data_ingestion_pipeline",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +69,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/schemas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,6 +95,7 @@
       <workItem from="1764784121022" duration="24000" />
       <workItem from="1764784195863" duration="3674000" />
       <workItem from="1765300640273" duration="4037000" />
+      <workItem from="1765304793333" duration="3224000" />
     </task>
     <servers />
   </component>
@@ -85,6 +103,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FHIR_data_ingestion_pipeline$fhir_testing.coverage" NAME="fhir_testing Coverage Results" MODIFIED="1765311064135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FHIR_data_ingestion_pipeline$FHIR_fetch.coverage" NAME="FHIR_fetch Coverage Results" MODIFIED="1765304012470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
