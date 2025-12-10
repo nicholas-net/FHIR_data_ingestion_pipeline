@@ -1,0 +1,31 @@
+Index: FHIR_fetch.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import requests\n\n\"\"\"\nFetch some data from the FHIR endpoint using a GET request.\n\nGet a feeling of how the API responds and get familiar with how the data works\n\n\"\"\"\n\n# Function performs a GET request on the H7 FHIR test server\n# Extract the patients name and birthdate\n\n#Test endpoint\napi_endpoint = \"https://hapi.fhir.org/baseR4/Patient/47936526\"\n\ndef get_resource():\n    response = requests.get(api_endpoint).json()\n    return response\n\nres = get_resource()\nprint(res)\n\n
+===================================================================
+diff --git a/FHIR_fetch.py b/FHIR_fetch.py
+--- a/FHIR_fetch.py	(revision ea3e5fa62f0bb46da3007576a01e32ec16b000ae)
++++ b/FHIR_fetch.py	(date 1765304575830)
+@@ -1,22 +1,2 @@
+-import requests
+-
+-"""
+-Fetch some data from the FHIR endpoint using a GET request.
+-
+-Get a feeling of how the API responds and get familiar with how the data works
+-
+-"""
+-
+-# Function performs a GET request on the H7 FHIR test server
+-# Extract the patients name and birthdate
+ 
+-#Test endpoint
+-api_endpoint = "https://hapi.fhir.org/baseR4/Patient/47936526"
+-
+-def get_resource():
+-    response = requests.get(api_endpoint).json()
+-    return response
+-
+-res = get_resource()
+-print(res)
+ 
