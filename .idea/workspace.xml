@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9786ac-c81c-4894-8ea5-9d1b62cfe258" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/schemas/fhir.schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/patient_example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ingestion/fetch_fhir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ingestion/load_pg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ingestion/transform.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fhir_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/fhir_testing.py" afterDir="false" />
     </list>
@@ -54,6 +59,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.FHIR_fetch.executor": "Run",
+    "Python.fetch_fhir.executor": "Run",
     "Python.fhir_testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -65,7 +71,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -95,7 +101,8 @@
       <workItem from="1764784121022" duration="24000" />
       <workItem from="1764784195863" duration="3674000" />
       <workItem from="1765300640273" duration="4037000" />
-      <workItem from="1765304793333" duration="3224000" />
+      <workItem from="1765304793333" duration="6329000" />
+      <workItem from="1765404609648" duration="6297000" />
     </task>
     <servers />
   </component>
@@ -103,7 +110,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FHIR_data_ingestion_pipeline$fhir_testing.coverage" NAME="fhir_testing Coverage Results" MODIFIED="1765311064135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FHIR_data_ingestion_pipeline$fhir_testing.coverage" NAME="fhir_testing Coverage Results" MODIFIED="1765410714999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FHIR_data_ingestion_pipeline$FHIR_fetch.coverage" NAME="FHIR_fetch Coverage Results" MODIFIED="1765304012470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FHIR_data_ingestion_pipeline$fetch_fhir.coverage" NAME="fetch_fhir Coverage Results" MODIFIED="1765410673542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ingestion" />
   </component>
 </project>
